@@ -1,9 +1,11 @@
 fn main() {
-    println!("green light stays {:?} seconds", TrafficLight::Green.get_time());
+    //test 1
+    /*println!("green light stays {:?} seconds", TrafficLight::Green.get_time());
     println!("yellow light stays {:?} seconds", TrafficLight::Yellow.get_time());
-    println!("red light stays {:?} seconds", TrafficLight::Red.get_time());
+    println!("red light stays {:?} seconds", TrafficLight::Red.get_time());*/
 
-    let array: Vec<u32> = vec![1, 3, u32::MAX, 11111];
+    //test 2
+    /*let array: Vec<u32> = vec![1, 3, u32::MAX, 11111];
     let result = sum_up(&array);
     match result {
         Some(good_value) => {
@@ -12,8 +14,9 @@ fn main() {
         None => {
             println!("result is None");
         }
-    }
+    }*/
 
+    //test 3
     let retangle = Rectangle { length: 5.0, width: 6.5 };
     let circle = Circle { radius: 2.0 };
     let triangle = Triangle { length: 3.0, height: 5.5 };
